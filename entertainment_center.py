@@ -8,14 +8,14 @@ Created on Sun May  7 09:22:57 2017
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story",
-                        "A Story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+darkknight = media.Movie("The Dark Knight",
+                        "The first trilogy of the Dark Knight Movie",
+                        "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+                        "https://www.youtube.com/watch?v=kmJLuwP3MbY")
 #print(toy_story.storyline)
-avatar = media.Movie("Avatar","A marine on an alien planet",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+logan = media.Movie("Logan","A movie about the making of Logan, of the characters of XMen",
+                     "http://t1.gstatic.com/images?q=tbn:ANd9GcRPoMqL1vglrh7OF_69pT8gYMYnYaq1r7WfPMcD587V9uOR_hW2",
+                     "https://www.youtube.com/watch?v=gbug3zTm3Ws")
 #print(avatar.storyline)
 #avatar.show_trailer()
 grease = media.Movie("Grease the movie",
@@ -40,7 +40,7 @@ lifeofpie = media.Movie("Lifeofpie",
                      "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg",
                      "https://www.youtube.com/watch?v=j9Hjrs6WQ8M")
 
-movies = [toy_story, avatar, grease, arrival, threeidiots, lifeofpie]
+movies = [darkknight, logan, grease, arrival, threeidiots, lifeofpie]
 fresh_tomatoes.open_movies_page(movies)
 
 #print(media.Movie.VALID_RATINGS)
